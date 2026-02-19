@@ -178,14 +178,3 @@ A escolha se deve ao fato de que as variáveis utilizadas (`Pclass`, `Sex`, `Sib
 O objetivo foi construir um **baseline simples** e funcional.
 
 Em versões futuras, serão aplicadas técnicas de imputação e engenharia de features para lidar com colunas como `Age`, `Cabin` e `Embarked`, que possuem valores ausentes e podem contribuir para melhorar a performance do modelo.
-
-**Reprodutibilidade**
-
-Este projeto foi desenvolvido diretamente em um **Kaggle Notebook**, que já possui as principais bibliotecas de ciência de dados instaladas por padrão.
-
-Para reproduzir os resultados:
-
-1. Acesse a competição [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic).
-2. Crie um novo notebook no Kaggle e conecte o dataset oficial da competição.
-3. Copie e execute o código disponível neste repositório.
-4. O notebook irá gerar o arquivo `submission.csv`, pronto para envio na plataforma.
